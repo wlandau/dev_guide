@@ -213,7 +213,7 @@ Please do not list editors as contributors. Your participation in and contributi
 
 ## Recommended scaffolding
 
-* For http requests we strongly recommend using `httr` over `RCurl`.
+* For http requests we strongly recommend using `httr` or `crul` (for http tests use `vcr`). Do not use `RCurl`.
 
 * For parsing JSON, use `jsonlite` instead of `rjson` or `RJSONIO`.
 
